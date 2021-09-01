@@ -36,11 +36,11 @@
           }
 
           .cube {
-               width: 70px;
-               height: 70px;
-               margin: auto;
-               margin-top: 0;
-               margin-bottom: 10px;
+               width: 40px;
+               height: 40px;
+               margin-left: 35px;
+               margin-top: 30px;
+               margin-bottom: 0px;
                position: relative;
                transform-style: preserve-3d;
                animation: rotatey 30s infinite linear;
@@ -48,8 +48,8 @@
 
           .cube div {
                opacity: 1;
-               width: 100px;
-               height: 100px;
+               width: 40px;
+               height: 40px;
                position: absolute;
                background-repeat: no-repeat;
                /* background-size: cover; */
@@ -62,42 +62,42 @@
                background-image: url(./images/1.jpg);
                background-repeat: no-repeat;
                background-size: 100%;
-               transform: rotateY(90deg) translateZ(50px);
+               transform: rotateY(90deg) translateZ(20px);
           }
 
           .mg2 {
                background-image: url(./images/2.jpg);
                background-repeat: no-repeat;
                background-size: 100%;
-               transform: rotateY(-90deg) translateZ(50px);
+               transform: rotateY(-90deg) translateZ(20px);
           }
 
           .mg3 {
                background-image: url(./images/3.jpg);
                background-repeat: no-repeat;
                background-size: 100%;
-               transform: rotatex(-90deg) translatez(50px);
+               transform: rotatex(-90deg) translatez(20px);
           }
 
           .mg4 {
                background-image: url(./images/4.jpg);
                background-repeat: no-repeat;
                background-size: 100%;
-               transform: rotatex(90deg) translatez(50px);
+               transform: rotatex(90deg) translatez(20px);
           }
 
           .mg5 {
                background-image: url(./images/5.jpg);
                background-repeat: no-repeat;
                background-size: 100%;
-               transform: rotateY(0deg) translatez(50px);
+               transform: rotateY(0deg) translatez(20px);
           }
 
           .mg6 {
                background-image: url(./images/6.jpg);
                background-repeat: no-repeat;
                background-size: 100%;
-               transform: rotateY(180deg) translatez(50px);
+               transform: rotateY(180deg) translatez(20px);
           }
 
           @keyframes rotatey {
@@ -159,7 +159,20 @@
 
                     <div class="col-md-offset-1 col-md-2 col-sm-3">
                          <img src="images/5.jpg" class="wow fadeInUp img-responsive img-circle" data-wow-delay="0.2s"alt="about image">
-
+                              <div class="wow fadeInUp img-responsive img-circle cube" data-wow-delay="0.2s">
+                                   <div class="mg1">
+                                   </div>
+                                   <div class="mg2">
+                                   </div>
+                                   <div class="mg3">
+                                   </div>
+                                   <div class="mg4">
+                                   </div>
+                                   <div class="mg5">
+                                   </div>
+                                   <div class="mg6">
+                                   </div>
+                              </div> 
                          <br><br>
                          <ul class="social-icon">
                               <li class="wow fadeInLeft" data-wow-delay="1s"> <a
